@@ -69,12 +69,20 @@ form input{
     width: 100%;
     border: 1px solid #ddd;
     border-radius: 5px;
-    height:42px;
+    height: 42px;
 }
 
 form div:first-child{
     flex-basis: 100%;
 }
-fom div:nth-child(n+2){
+form div:nth-child(n+2){
     flex-basis: calc(50% - 5px);
+}
+
+form button{
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 42px;
+    margin-top: 10px;
 }
